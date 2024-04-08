@@ -1,15 +1,15 @@
 # EOSC556B
 EOSC556B: Applied Geophysics, UBC,  2024 Winter session
 
-This is git hub repository for Project.
-This code is inversion for Induced Polarization parameter from TDEM.
-Forward modelling uses a empymod.
+This is the git hub repository for the EOSC556B final project.
+This code runs an inversion for Induced Polarization parameters from TDEM.
+Forward modelling uses an empymod.
 
-Simulation model are based on deep Sea Massive Sulfide exploration.
-Model are inspired by JOGMEC-WISTEM survey.
+Simulation models are based on deep Sea Massive Sulfide exploration.
+Models are inspired by the JOGMEC-WISTEM survey.
 
-Induced polarization parameters are available either cole-cole model or the pelton model.
-Steepest descend and Gauss-Newton method are available for optimization.
+Induced polarization parameters are available with either the cole-cole model or the pelton model.
+Steepest descend and the Gauss-Newton method are available for optimization.
 Jacobian is approximated by finite difference.
 Plotting functions about objective value grids are also prepared.
 
